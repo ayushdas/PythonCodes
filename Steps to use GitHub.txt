@@ -1,0 +1,6 @@
+Steps to copy code to GitHub repository
+- git clone <type in the repository URL>
+- git status [Returns the status of the files in the repository]
+- git add <File Name>
+- git commit -m "First python file"
+
