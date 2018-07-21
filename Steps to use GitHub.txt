@@ -13,3 +13,7 @@ Creating a git feature branch and merging the changes with original repository
 - git push origin <feature_branch> [Push the feature branch to Bitbucket]
 
 - To merge the branches create a pull request on the branch followed by delete branch
+
+Steps to Delete git branch locally
+- git branch -d branch_name [-d is a simple delete]
+- git branch -D branch_name [-D is force delete]
