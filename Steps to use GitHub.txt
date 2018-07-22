@@ -5,7 +5,7 @@ Steps to copy code to GitHub repository
 - git commit -m "First python file"
 
 Creating a git feature branch and merging the changes with original repository
-- git branch [Lists the benaches in the repository]
+- git branch [Lists the branches in the repository]
 - git branch <feature_branch> [Creates a new feature branch in the repository]
 - git checkout <feature_branch> [Switch to feature branch]
 - git add . 
