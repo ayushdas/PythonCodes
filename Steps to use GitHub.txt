@@ -1,18 +1,18 @@
-Steps to copy code to GitHub repository
+***Steps to copy code to GitHub repository
 - git clone <type in the repository URL>
 - git status [Returns the status of the files in the repository]
 - git add <File Name>
 - git commit -m "First python file"
 
-Creating a git feature branch and merging the changes with original repository
-- git branch [Lists the benaches in the repository]
+***Creating a git feature branch and merging the changes with original repository
+- git branch [Lists the branches in the repository]
 - git branch <feature_branch> [Creates a new feature branch in the repository]
 - git checkout <feature_branch> [Switch to feature branch]
 - git add . 
 - git commit -m "adding a change from the feature branch"
 - git push origin <feature_branch> [Push the feature branch to Bitbucket]
 
-- To merge the branches create a pull request on the branch followed by delete branch
+*** To merge the branches create a pull request on the branch followed by delete branch
 - git branch -d branch_name [-d is a simple delete]
 - git branch -D branch_name [-D is force delete]
 - git push --delete origin <branch name> [Pushes the delete to the repo]
@@ -50,6 +50,12 @@ git remote add upstream <Upstrream URL>
 10. Commands to help keep sync with the upstream branch 
 git pull upstream master
 git push origin master
+
+11. To ensure the repoo is in sync with the files on computer
+git pull origin
+followed by  
+git push origin
+To merge the changes
 
 
 
