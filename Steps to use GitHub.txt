@@ -1,8 +1,16 @@
+***To ensure the repoo is in sync with the files on computer
+git pull origin
+followed by  
+git push origin
+To merge the changes
+
+
 ***Steps to copy code to GitHub repository
 - git clone <type in the repository URL>
 - git status [Returns the status of the files in the repository]
 - git add <File Name>
 - git commit -m "First python file"
+
 
 ***Creating a git feature branch and merging the changes with original repository
 - git branch [Lists the branches in the repository]
