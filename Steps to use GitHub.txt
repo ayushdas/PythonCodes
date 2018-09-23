@@ -58,5 +58,15 @@ git push origin
 To merge the changes
 
 
+*** Command to get Folder to local system without cloning the repo
+wget https://github.com/michael-camilleri/IAML2018/archive/master.zip
+unzip master.zip
+mv IAML2018-master iaml2018
+rm master.zip
 
+*** Working with remotes
+git remote -v # View current remotes
+git remote rm destination # Remove remote
+git remote -v # Verify it's gone
+git remote add origin git@github.com:User/UserRepo.git # is used to add a new github remote
 
